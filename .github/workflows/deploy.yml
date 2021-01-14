@@ -29,7 +29,7 @@ jobs:
       
       # Runs a single command using the runners shell
       - name: Create .env
-        run: 
+        run: |
           touch .env
           echo VUE_APP_TITLE=${{ secrets.VUE_APP_TITLE }} >> .env
           cat .env
