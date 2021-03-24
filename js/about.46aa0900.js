@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["about"],{f820:function(t,n,e){"use strict";e.r(n);var a=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("div",{staticClass:"about"},[e("h1",[t._v("This is an about page")]),t._v(" "+t._s(t.title)+" ")])},s=[],i={data:function(){return{title:"Test Actions with .env"}}},u=i,l=e("2877"),o=Object(l["a"])(u,a,s,!1,null,null,null);n["default"]=o.exports}}]);
+//# sourceMappingURL=about.46aa0900.js.map
