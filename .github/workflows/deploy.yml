@@ -31,7 +31,7 @@ jobs:
           echo VUE_APP_TITLE=${{ secrets.VUE_APP_TITLE }} >> .env
           cat .env
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: JamesIves/github-pages-deploy-action@4.1.3
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
