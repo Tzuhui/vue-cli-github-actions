@@ -38,5 +38,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN
-          BRANCH: gh-pages # deploy 到 gh-pages 這個分支
-          FOLDER: dist # build 後的資料夾
+          branch: gh-pages # deploy 到 gh-pages 這個分支
+          folder: dist # build 後的資料夾
